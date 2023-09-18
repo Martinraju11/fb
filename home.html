@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/fb-icon.png" />
+  </head>
+  <body style="background-color: #f0f2f5">
+    <nav>
+      <div class="home-left">
+        <div class="logo">
+          <i class="bi bi-facebook"></i>
+        </div>
+        <div class="nav-input">
+          <input type="text" placeholder="Search Facebook" />
+        </div>
+        <div class="nav-input-icon home-right-icon">
+          <i class="bi bi-search"></i>
+        </div>
+      </div>
+
+      <div class="home-cent high">
+        <div class="home-icon menu-icon">
+          <i class="bi bi-list"></i>
+        </div>
+        <div class="home-icon ivv lap-icon">
+          <i class="bi bi-house-door-fill"></i>
+        </div>
+        <div class="home-icon lap-icon">
+          <i class="bi bi-display"></i>
+        </div>
+        <div class="home-icon lap-icon">
+          <i class="bi bi-shop"></i>
+        </div>
+        <div class="home-icon lap-icon">
+          <i class="bi bi-people-fill"></i>
+        </div>
+        <div class="home-icon lap-icon">
+          <i class="bi bi-controller"></i>
+        </div>
+      </div>
+
+      <div class="home-right">
+        <div class="home-right-icon">
+          <i class="bi bi-plus-circle"></i>
+        </div>
+        <div class="home-right-icon">
+          <i class="bi bi-messenger"></i>
+        </div>
+
+        <div class="profile">
+          <img src="images/profile.png" alt="profile" />
+        </div>
+        <div class="home-right-icon lo">
+          <a href="index.html">Log out</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="fb-post">
+      <div class="post-container">
+        <div class="post-row">
+          <div class="post-left">
+            <div class="left-tot">
+              <div class="left-icon-post">
+                <img
+                  src="images/profile.png"
+                  alt="profile"
+                  class="profile-left"
+                />
+              </div>
+              <div class="left-detail-post"><b>James Brown</b></div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <div class="left-detail-post">Friends</div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <div class="left-detail-post">Memories</div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post">
+                <i class="bi bi-calendar-date"></i>
+              </div>
+              <div class="left-detail-post">Events</div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post">
+                <i class="bi bi-bookmark-fill"></i>
+              </div>
+              <div class="left-detail-post">Saved</div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post">
+                <i class="bi bi-person-lines-fill"></i>
+              </div>
+              <div class="left-detail-post">Groups</div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post"><i class="bi bi-display"></i></div>
+              <div class="left-detail-post">Videos</div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post"><i class="bi bi-shop"></i></div>
+              <div class="left-detail-post">Marketplace</div>
+            </div>
+            <div class="left-tot">
+              <div class="left-icon-post">
+                <i class="bi bi-caret-down-fill"></i>
+              </div>
+              <div class="left-detail-post">See More</div>
+            </div>
+          </div>
+          <div class="post-middle">
+            <div class="post-box">
+              <div class="create-post">
+                <div class="post-img">
+                  <img src="images/profile.png" alt="profile" />
+                </div>
+                <div class="post-input">
+                  <input
+                    type="text"
+                    placeholder="What's on your mind"
+                    id="postInp"
+                  />
+                </div>
+              </div>
+
+              <div class="post-button">
+                <button type="button" id="postBtn">Post</button>
+              </div>
+              <p
+                id="mess"
+                class="mess-1"
+                style="
+                  color: rgb(228, 1, 1);
+                  text-align: center;
+                  margin-top: 10px;
+                "
+              >
+                Nothing to post
+              </p>
+            </div>
+
+            <div class="post-det">
+              <div class="post-card" id="post"></div>
+            </div>
+          </div>
+          <div class="post-right">
+            <div class="contacts">
+              <div class="contacts-fb">
+                <div class="contacts-icon"><b>Contacts</b></div>
+                <div class="contact-name"></div>
+              </div>
+
+              <div class="contacts-fb">
+                <div class="contacts-icon">
+                  <img src="images/contact-1.png" alt="contact" />
+                </div>
+                <div class="contact-name">Clara.</div>
+              </div>
+
+              <div class="contacts-fb">
+                <div class="contacts-icon">
+                  <img src="images/contact-2.png" alt="contact" />
+                </div>
+                <div class="contact-name">Harry.</div>
+              </div>
+
+              <div class="contacts-fb">
+                <div class="contacts-icon">
+                  <img src="images/contact-3.jpeg" alt="contact" />
+                </div>
+                <div class="contact-name">Mach.</div>
+              </div>
+
+              <div class="contacts-fb">
+                <div class="contacts-icon">
+                  <img src="images/contact-4.jpeg" alt="contact" />
+                </div>
+                <div class="contact-name">Cath.</div>
+              </div>
+
+              <div class="contacts-fb">
+                <div class="contacts-icon">
+                  <img src="images/contact-5.png" alt="contact" />
+                </div>
+                <div class="contact-name">Katie.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      var post = document.getElementById("post");
+      var postInp = document.getElementById("postInp");
+      var postBtn = document.getElementById("postBtn");
+      var err = document.getElementById("mess");
+
+      postBtn.addEventListener("click", function () {
+        var postValue = postInp.value;
+        if (postValue == "") {
+          err.classList.remove("mess-1");
+          err.classList.add("view");
+        } else {
+          err.classList.remove("view");
+          err.classList.add("mess-1");
+          var dat = new Date();
+          var strDate = dat.toLocaleString();
+          var element = document.createElement("div");
+          post.appendChild(element);
+          element.classList.add("post-b");
+
+          var eleme = document.createElement("div");
+          element.appendChild(eleme);
+          eleme.classList.add("post-profile");
+          var profilephoto = document.createElement("img");
+          eleme.appendChild(profilephoto);
+          profilephoto.setAttribute("src", "images/profile.png");
+          profilephoto.classList.add("profile-post");
+          var elem = document.createElement("div");
+          eleme.appendChild(elem);
+          elem.innerHTML = "James Brown.";
+          var time = document.createElement("div");
+          elem.appendChild(time);
+          time.innerHTML = strDate;
+          time.classList.add("prof-date");
+          elem.classList.add("prof-name");
+          var ele = document.createElement("div");
+          element.appendChild(ele);
+          ele.innerHTML = postValue;
+          ele.classList.add("mrgn");
+          var done = document.createElement("button");
+          element.appendChild(done);
+          done.innerHTML = "Save Changes";
+          done.classList.add("done");
+          done.style.visibility = "hidden";
+          var pic = document.createElement("div");
+          element.appendChild(pic);
+          var photo = document.createElement("img");
+          pic.appendChild(photo);
+          photo.setAttribute("src", "images/fbpost.jpg");
+          photo.classList.add("post-pic");
+          postInp.value = "";
+          var last = document.createElement("div");
+          element.appendChild(last);
+          last.classList.add("like-flex");
+          var btn1 = document.createElement("button");
+          var btn2 = document.createElement("button");
+          var btn3 = document.createElement("button");
+          last.appendChild(btn1);
+          btn1.innerHTML = "Like";
+          btn1.setAttribute("id", "likeBtn");
+          last.appendChild(btn2);
+          btn2.innerHTML = "Edit";
+          last.appendChild(btn3);
+          btn3.innerHTML = "Delete";
+          btn1.classList.add("like-btn");
+          btn2.classList.add("edit-btn");
+          btn3.classList.add("delete-btn");
+          btn1.addEventListener("click", function () {
+            btn1.classList.toggle("col-like");
+          });
+          btn3.addEventListener("click", function () {
+            element.remove();
+          });
+          btn2.addEventListener("click", function () {
+            ele.contentEditable = true;
+            ele.style.backgroundColor = "#bebebe";
+            done.style.visibility = "visible";
+          });
+          done.addEventListener("click", function () {
+            ele.contentEditable = false;
+            ele.style.backgroundColor = "#fff";
+            done.style.visibility = "hidden";
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
